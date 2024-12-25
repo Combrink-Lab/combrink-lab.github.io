@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/microorganisms12091898
+  title: 'The Alligator and the Mosquito: North American Crocodilians as Amplifiers
+    of West Nile Virus in Changing Climates'
+  authors:
+  - Desiree Kirsten Andersen
+  - Gracie Ann Fischer
+  - Leigh Combrink
+  publisher: Microorganisms
+  date: '2024-09-14'
+  link: https://doi.org/g8wx42
+  orcid: 0000-0001-8753-6227
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3389/fevo.2023.1126149
   title: DNA virome composition of two sympatric wild felids, bobcat (Lynx rufus)
     and puma (Puma concolor) in Sonora, Mexico
@@ -40,6 +53,13 @@
   plugin: sources.py
   file: sources.yaml
   image: https://www.frontiersin.org/files/Articles/1092216/fmicb-14-1092216-HTML/image_m/fmicb-14-1092216-g001.jpg
+- id: ':'
+  title: 'Microbiomes in Birds: A Review of Links to Health and Reproduction. '
+  publisher: Reproduction and Fertility
+  date: '2023-11-21'
+  orcid: 0000-0001-8753-6227
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.mib.2021.01.003
   title: "Erratum to \u201CHarnessing the gut microbiome in the fight against anthelminthic\
     \ drug resistance\u201D [Curr. Opin. Microbiol. 53 (February) (2020) 26\u2013\
@@ -136,8 +156,8 @@
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0306456516303023-gr2.jpg
 - id: doi:10.1002/ece3.2787
-  title: 'Re-establishing the pecking order: Niche models reliably predict suitable
-    habitats for the reintroduction of red-billed oxpeckers'
+  title: "Re\u2010establishing the pecking order: Niche models reliably predict suitable\
+    \ habitats for the reintroduction of red\u2010billed oxpeckers"
   authors:
   - Riddhika Kalle
   - Leigh Combrink
@@ -151,8 +171,8 @@
   file: sources.yaml
   image: https://onlinelibrary.wiley.com/cms/asset/c299d40b-6c04-4b8c-b361-d4637949e103/ece32787-fig-0001-m.jpg
 - id: doi:10.2989/00306525.2015.1047808
-  title: Current conservation status of the Blue Swallow <i>Hirundo atrocaerulea</i>
-    Sundevall 1850 in Africa
+  title: Current conservation status of the Blue Swallow<i>Hirundo atrocaerulea</i>Sundevall
+    1850 in Africa
   authors:
   - Steven W Evans
   - Ara Monadjem
