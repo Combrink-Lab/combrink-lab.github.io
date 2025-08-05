@@ -1,6 +1,6 @@
 ---
 name: Desiree Andersen Bliss
-image: images/DesireeBliss_webpic.jpg
+image: images/DesireeBliss_webpic.webp
 role: postdoc
 aliases:
   - Desiree Bliss
