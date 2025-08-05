@@ -1,5 +1,40 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1371/journal.pntd.0013088
+  title: Does schistosome infection affect behavior through the gut-brain axis?
+  authors:
+  - Leigh Combrink
+  - Johannie M. Spaan
+  - Alexis Perret
+  - Thomas Maehara
+  - Britney Hyun
+  - Dana Parker
+  - Jennifer L. Johns
+  - Michael S. Blouin
+  - Kathy Magnusson
+  - Michelle L. Steinauer
+  publisher: PLOS Neglected Tropical Diseases
+  date: '2025-06-12'
+  link: https://doi.org/g9v84h
+  orcid: 0000-0001-8753-6227
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/mec.17681
+  title: Urbanisation and Host Relatedness Shape Virome Composition in a Widespread,
+    Generalist Carnivore
+  authors:
+  - Natalie Payne
+  - Desiree Andersen
+  - Cheryl Mollohan
+  - Koenraad Van Doorslaer
+  - Leigh Combrink
+  - Melanie Culver
+  publisher: Molecular Ecology
+  date: '2025-02-23'
+  link: https://doi.org/g9v84j
+  orcid: 0000-0001-8753-6227
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3390/microorganisms12091898
   title: 'The Alligator and the Mosquito: North American Crocodilians as Amplifiers
     of West Nile Virus in Changing Climates'
@@ -10,6 +45,21 @@
   publisher: Microorganisms
   date: '2024-09-14'
   link: https://doi.org/g8wx42
+  orcid: 0000-0001-8753-6227
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1530/raf-23-0076
+  title: 'MICROBIOME: Microbiomes in birds: a review of links to health and reproduction'
+  authors:
+  - Mary Ann Ottinger
+  - Shailaja Mani
+  - "Sonja Kr\xFCger"
+  - Brent Coverdale
+  - Sandi Willows-Munro
+  - Leigh Combrink
+  publisher: Reproduction and Fertility
+  date: '2024-07-01'
+  link: https://doi.org/g9v84m
   orcid: 0000-0001-8753-6227
   plugin: orcid.py
   file: orcid.yaml
@@ -53,13 +103,6 @@
   plugin: sources.py
   file: sources.yaml
   image: https://www.frontiersin.org/files/Articles/1092216/fmicb-14-1092216-HTML/image_m/fmicb-14-1092216-g001.jpg
-- id: ':'
-  title: 'Microbiomes in Birds: A Review of Links to Health and Reproduction. '
-  publisher: Reproduction and Fertility
-  date: '2023-11-21'
-  orcid: 0000-0001-8753-6227
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1016/j.mib.2021.01.003
   title: "Erratum to \u201CHarnessing the gut microbiome in the fight against anthelminthic\
     \ drug resistance\u201D [Curr. Opin. Microbiol. 53 (February) (2020) 26\u2013\
