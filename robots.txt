@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://combrink-lab.github.io/sitemap.xml

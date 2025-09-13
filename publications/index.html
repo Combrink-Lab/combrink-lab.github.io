@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Publications | Combrink WildOmics Lab</title>
@@ -49,15 +53,15 @@
 <meta property="og:title" content="Publications">
 <meta property="og:site_title" content="Combrink WildOmics Lab">
 <meta property="og:description" content="Wildlife Disease and Conservation. Research group in the School of Natural Resources and the Environment, The University of Arizona.">
-<meta property="og:url" content="">
-<meta property="og:image" content="">
+<meta property="og:url" content="https://combrink-lab.github.io">
+<meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Publications">
 <meta property="twitter:description" content="Wildlife Disease and Conservation. Research group in the School of Natural Resources and the Environment, The University of Arizona.">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://combrink-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="">
+<meta property="twitter:image" content="/images/share.jpg">
 
 
   <meta property="og:type" content="website">
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://combrink-lab.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://combrink-lab.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -330,6 +338,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -353,6 +363,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -372,19 +384,79 @@
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#62a0ea}</style>
+          &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewbox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#62a0ea}</style>
 <path d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0h32c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64H64c123.7 0 224 100.3 224 224v32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V320C100.3 320 0 219.7 0 96z"></path></svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; template/main
 
         
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Combrink WildOmics Lab</span>
+          <span class="title">Combrink WildOmics Lab</span>
         
         
-          <span>Wildlife Disease and Conservation</span>
+          <span class="subtitle">Wildlife Disease and Conservation</span>
         
       </span>
     
@@ -396,14 +468,20 @@
     
     
       
-        <a href="/team/" data-tooltip="Meet our team">
-          Team
+        <a href="/research/" data-tooltip="Published works">
+          Research
         </a>
       
     
       
         <a href="/projects/" data-tooltip="Projects, datasets, and more">
           Projects
+        </a>
+      
+    
+      
+        <a href="/team/" data-tooltip="About our team">
+          Team
         </a>
       
     
@@ -439,11 +517,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -465,9 +540,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="search-box">
@@ -481,609 +556,657 @@
 
 <h3 id="2025">2025</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9v84h" class="citation-image" aria-label="Does schistosome infection affect behavior through the gut-brain axis?">
-      <img src="" alt="Does schistosome infection affect behavior through the gut-brain axis?" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9v84h" class="citation-image" aria-label="Does schistosome infection affect behavior through the gut-brain axis">
+        <img src="" alt="Does schistosome infection affect behavior through the gut-brain axis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9v84h" class="citation-title">
-      Does schistosome infection affect behavior through the gut-brain axis?
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leigh Combrink, Johannie M. Spaan, Alexis Perret, Thomas Maehara, Britney Hyun, Dana Parker, Jennifer L. Johns, Michael S. Blouin, Kathy Magnusson, Michelle L. Steinauer
+      <a href="https://doi.org/g9v84h" class="citation-title">
+        Does schistosome infection affect behavior through the gut-brain axis?
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leigh Combrink, Johannie M. Spaan, Alexis Perret, Thomas Maehara, Britney Hyun, Dana Parker, Jennifer L. Johns, Michael S. Blouin, Kathy Magnusson, Michelle L. Steinauer
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS Neglected Tropical Diseases</span>
+         · 
+        <span class="citation-date">12 Jun 2025</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pntd.0013088</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      PLOS Neglected Tropical Diseases
-        ·  
-      12 Jun 2025
-        ·  
-      doi:10.1371/journal.pntd.0013088
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9v84j" class="citation-image" aria-label="Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore">
-      <img src="" alt="Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9v84j" class="citation-image" aria-label="Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore">
+        <img src="" alt="Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9v84j" class="citation-title">
-      Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Natalie Payne, Desiree Andersen, Cheryl Mollohan, Koenraad Van Doorslaer, Leigh Combrink, Melanie Culver
+      <a href="https://doi.org/g9v84j" class="citation-title">
+        Urbanisation and Host Relatedness Shape Virome Composition in a Widespread, Generalist Carnivore
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Natalie Payne, Desiree Andersen, Cheryl Mollohan, Koenraad Van Doorslaer, Leigh Combrink, Melanie Culver
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Ecology</span>
+         · 
+        <span class="citation-date">23 Feb 2025</span>
+         · 
+        <span class="citation-id">doi:10.1111/mec.17681</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Molecular Ecology
-        ·  
-      23 Feb 2025
-        ·  
-      doi:10.1111/mec.17681
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2024">2024</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g8wx42" class="citation-image" aria-label="The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates">
-      <img src="" alt="The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g8wx42" class="citation-image" aria-label="The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates">
+        <img src="" alt="The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g8wx42" class="citation-title">
-      The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Desiree Kirsten Andersen, Gracie Ann Fischer, Leigh Combrink
+      <a href="https://doi.org/g8wx42" class="citation-title">
+        The Alligator and the Mosquito: North American Crocodilians as Amplifiers of West Nile Virus in Changing Climates
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Desiree Kirsten Andersen, Gracie Ann Fischer, Leigh Combrink
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Microorganisms</span>
+         · 
+        <span class="citation-date">14 Sep 2024</span>
+         · 
+        <span class="citation-id">doi:10.3390/microorganisms12091898</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Microorganisms
-        ·  
-      14 Sep 2024
-        ·  
-      doi:10.3390/microorganisms12091898
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/g9v84m" class="citation-image" aria-label="MICROBIOME: Microbiomes in birds: a review of links to health and reproduction">
-      <img src="" alt="MICROBIOME: Microbiomes in birds: a review of links to health and reproduction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/g9v84m" class="citation-image" aria-label="MICROBIOME: Microbiomes in birds: a review of links to health and reproduction">
+        <img src="" alt="MICROBIOME: Microbiomes in birds: a review of links to health and reproduction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/g9v84m" class="citation-title">
-      MICROBIOME: Microbiomes in birds: a review of links to health and reproduction
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Mary Ann Ottinger, Shailaja Mani, Sonja Krüger, Brent Coverdale, Sandi Willows-Munro, Leigh Combrink
+      <a href="https://doi.org/g9v84m" class="citation-title">
+        MICROBIOME: Microbiomes in birds: a review of links to health and reproduction
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mary Ann Ottinger, Shailaja Mani, Sonja Krüger, Brent Coverdale, Sandi Willows-Munro, Leigh Combrink
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Reproduction and Fertility</span>
+         · 
+        <span class="citation-date">01 Jul 2024</span>
+         · 
+        <span class="citation-id">doi:10.1530/raf-23-0076</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Reproduction and Fertility
-        ·  
-      01 Jul 2024
-        ·  
-      doi:10.1530/raf-23-0076
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjwr" class="citation-image" aria-label="DNA virome composition of two sympatric wild felids, bobcat (Lynx rufus) and puma (Puma concolor) in Sonora, Mexico">
-      <img src="https://www.frontiersin.org/files/Articles/1126149/fevo-11-1126149-HTML/image_m/fevo-11-1126149-g001.jpg" alt="DNA virome composition of two sympatric wild felids, bobcat (Lynx rufus) and puma (Puma concolor) in Sonora, Mexico" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjwr" class="citation-image" aria-label="DNA virome composition of two sympatric wild felids, bobcat Lynx rufus and puma Puma concolor in Sonora, Mexico">
+        <img src="https://www.frontiersin.org/files/Articles/1126149/fevo-11-1126149-HTML/image_m/fevo-11-1126149-g001.jpg" alt="DNA virome composition of two sympatric wild felids, bobcat Lynx rufus and puma Puma concolor in Sonora, Mexico" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjwr" class="citation-title">
-      DNA virome composition of two sympatric wild felids, bobcat (Lynx rufus) and puma (Puma concolor) in Sonora, Mexico
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Natalie Payne, Leigh Combrink, Simona Kraberger, Rafaela S. Fontenele, Kara Schmidlin, Ivonne Cassaigne, Melanie Culver, Arvind Varsani, Koenraad Van Doorslaer
+      <a href="https://doi.org/gsnjwr" class="citation-title">
+        DNA virome composition of two sympatric wild felids, bobcat (Lynx rufus) and puma (Puma concolor) in Sonora, Mexico
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Natalie Payne, Leigh Combrink, Simona Kraberger, Rafaela S. Fontenele, Kara Schmidlin, Ivonne Cassaigne, Melanie Culver, Arvind Varsani, Koenraad Van Doorslaer
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Frontiers in Ecology and Evolution</span>
+         · 
+        <span class="citation-date">09 Mar 2023</span>
+         · 
+        <span class="citation-id">doi:10.3389/fevo.2023.1126149</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Frontiers in Ecology and Evolution
-        ·  
-      09 Mar 2023
-        ·  
-      doi:10.3389/fevo.2023.1126149
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjws" class="citation-image" aria-label="Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations">
-      <img src="https://www.frontiersin.org/files/Articles/1092216/fmicb-14-1092216-HTML/image_m/fmicb-14-1092216-g001.jpg" alt="Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjws" class="citation-image" aria-label="Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations">
+        <img src="https://www.frontiersin.org/files/Articles/1092216/fmicb-14-1092216-HTML/image_m/fmicb-14-1092216-g001.jpg" alt="Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjws" class="citation-title">
-      Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leigh Combrink, Ian R. Humphreys, Quinn Washburn, Holly K. Arnold, Keaton Stagaman, Kristin D. Kasschau, Anna E. Jolles, Brianna R. Beechler, Thomas J. Sharpton
+      <a href="https://doi.org/gsnjws" class="citation-title">
+        Best practice for wildlife gut microbiome research: A comprehensive review of methodology for 16S rRNA gene investigations
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leigh Combrink, Ian R. Humphreys, Quinn Washburn, Holly K. Arnold, Keaton Stagaman, Kristin D. Kasschau, Anna E. Jolles, Brianna R. Beechler, Thomas J. Sharpton
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Frontiers in Microbiology</span>
+         · 
+        <span class="citation-date">22 Feb 2023</span>
+         · 
+        <span class="citation-id">doi:10.3389/fmicb.2023.1092216</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Frontiers in Microbiology
-        ·  
-      22 Feb 2023
-        ·  
-      doi:10.3389/fmicb.2023.1092216
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjwt" class="citation-image" aria-label="Erratum to “Harnessing the gut microbiome in the fight against anthelminthic drug resistance” [Curr. Opin. Microbiol. 53 (February) (2020) 26–34]">
-      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1369527420300217-gr1.jpg" alt="Erratum to “Harnessing the gut microbiome in the fight against anthelminthic drug resistance” [Curr. Opin. Microbiol. 53 (February) (2020) 26–34]" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjwt" class="citation-image" aria-label="Erratum to Harnessing the gut microbiome in the fight against anthelminthic drug resistance Curr. Opin. Microbiol. 53 February 2020 26 34">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1369527420300217-gr1.jpg" alt="Erratum to Harnessing the gut microbiome in the fight against anthelminthic drug resistance Curr. Opin. Microbiol. 53 February 2020 26 34" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjwt" class="citation-title">
-      Erratum to “Harnessing the gut microbiome in the fight against anthelminthic drug resistance” [Curr. Opin. Microbiol. 53 (February) (2020) 26–34]
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Thomas J Sharpton, Leigh Combrink, Holly K Arnold, Christopher A Gaulke, Michael Kent
+      <a href="https://doi.org/gsnjwt" class="citation-title">
+        Erratum to “Harnessing the gut microbiome in the fight against anthelminthic drug resistance” [Curr. Opin. Microbiol. 53 (February) (2020) 26–34]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Thomas J Sharpton, Leigh Combrink, Holly K Arnold, Christopher A Gaulke, Michael Kent
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Current Opinion in Microbiology</span>
+         · 
+        <span class="citation-date">01 Aug 2021</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.mib.2021.01.003</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Current Opinion in Microbiology
-        ·  
-      01 Aug 2021
-        ·  
-      doi:10.1016/j.mib.2021.01.003
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjwv" class="citation-image" aria-label="Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures">
-      <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-73236-4/MediaObjects/41598_2020_73236_Fig1_HTML.png" alt="Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjwv" class="citation-image" aria-label="Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures">
+        <img src="https://media.springernature.com/lw685/springer-static/image/art:10.1038/s41598-020-73236-4/MediaObjects/41598_2020_73236_Fig1_HTML.png" alt="Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjwv" class="citation-title">
-      Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leigh Combrink, Hendrik J. Combrink, André J. Botha, Colleen T. Downs
+      <a href="https://doi.org/gsnjwv" class="citation-title">
+        Habitat preferences of Southern Ground-hornbills in the Kruger National Park: implications for future conservation measures
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leigh Combrink, Hendrik J. Combrink, André J. Botha, Colleen T. Downs
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Reports</span>
+         · 
+        <span class="citation-date">01 Oct 2020</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41598-020-73236-4</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Scientific Reports
-        ·  
-      01 Oct 2020
-        ·  
-      doi:10.1038/s41598-020-73236-4
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjwx" class="citation-image" aria-label="Harnessing the gut microbiome in the fight against anthelminthic drug resistance">
-      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1369527420300217-gr1.jpg" alt="Harnessing the gut microbiome in the fight against anthelminthic drug resistance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjwx" class="citation-image" aria-label="Harnessing the gut microbiome in the fight against anthelminthic drug resistance">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S1369527420300217-gr1.jpg" alt="Harnessing the gut microbiome in the fight against anthelminthic drug resistance" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjwx" class="citation-title">
-      Harnessing the gut microbiome in the fight against anthelminthic drug resistance
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Thomas J Sharpton, Leigh Combrink, Holly K Arnold, Christopher A Gaulke, Michael Kent
+      <a href="https://doi.org/gsnjwx" class="citation-title">
+        Harnessing the gut microbiome in the fight against anthelminthic drug resistance
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Thomas J Sharpton, Leigh Combrink, Holly K Arnold, Christopher A Gaulke, Michael Kent
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Current Opinion in Microbiology</span>
+         · 
+        <span class="citation-date">01 Feb 2020</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.mib.2020.01.017</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Current Opinion in Microbiology
-        ·  
-      01 Feb 2020
-        ·  
-      doi:10.1016/j.mib.2020.01.017
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjww" class="citation-image" aria-label="Age of first infection across a range of parasite taxa in a wild mammalian population">
-      <img src="https://royalsocietypublishing.org/cms/asset/8f0a2a24-c6fa-43c9-9725-17176d358b89/rsbl20190811f01.jpg" alt="Age of first infection across a range of parasite taxa in a wild mammalian population" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjww" class="citation-image" aria-label="Age of first infection across a range of parasite taxa in a wild mammalian population">
+        <img src="https://royalsocietypublishing.org/cms/asset/8f0a2a24-c6fa-43c9-9725-17176d358b89/rsbl20190811f01.jpg" alt="Age of first infection across a range of parasite taxa in a wild mammalian population" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjww" class="citation-title">
-      Age of first infection across a range of parasite taxa in a wild mammalian population
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leigh Combrink, Caroline K. Glidden, Bree R. Beechler, Bryan Charleston, Anson V. Koehler, Danielle Sisson, Robin B. Gasser, Abdul Jabbar, Anna E. Jolles
+      <a href="https://doi.org/gsnjww" class="citation-title">
+        Age of first infection across a range of parasite taxa in a wild mammalian population
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leigh Combrink, Caroline K. Glidden, Bree R. Beechler, Bryan Charleston, Anson V. Koehler, Danielle Sisson, Robin B. Gasser, Abdul Jabbar, Anna E. Jolles
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biology Letters</span>
+         · 
+        <span class="citation-date">01 Feb 2020</span>
+         · 
+        <span class="citation-id">doi:10.1098/rsbl.2019.0811</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Biology Letters
-        ·  
-      01 Feb 2020
-        ·  
-      doi:10.1098/rsbl.2019.0811
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2017">2017</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gcn9d2" class="citation-image" aria-label="Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill">
-      <img src="" alt="Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gcn9d2" class="citation-image" aria-label="Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill">
+        <img src="" alt="Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gcn9d2" class="citation-title">
-      Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Leigh Combrink, Hendrik J. Combrink, André J. Botha, Colleen T. Downs
+      <a href="https://doi.org/gcn9d2" class="citation-title">
+        Habitat structure and diversity influence the nesting success of an endangered large cavity-nesting bird, the Southern Ground-hornbill
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Leigh Combrink, Hendrik J. Combrink, André J. Botha, Colleen T. Downs
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Koedoe</span>
+         · 
+        <span class="citation-date">17 Nov 2017</span>
+         · 
+        <span class="citation-id">doi:10.4102/koedoe.v59i1.1438</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Koedoe
-        ·  
-      17 Nov 2017
-        ·  
-      doi:10.4102/koedoe.v59i1.1438
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gbgwkp" class="citation-image" aria-label="Nest temperature fluctuations in a cavity nester, the southern ground-hornbill">
-      <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0306456516303023-gr2.jpg" alt="Nest temperature fluctuations in a cavity nester, the southern ground-hornbill" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gbgwkp" class="citation-image" aria-label="Nest temperature fluctuations in a cavity nester, the southern ground-hornbill">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0306456516303023-gr2.jpg" alt="Nest temperature fluctuations in a cavity nester, the southern ground-hornbill" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gbgwkp" class="citation-title">
-      Nest temperature fluctuations in a cavity nester, the southern ground-hornbill
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      L. Combrink, H.J. Combrink, A.J. Botha, C.T. Downs
+      <a href="https://doi.org/gbgwkp" class="citation-title">
+        Nest temperature fluctuations in a cavity nester, the southern ground-hornbill
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        L. Combrink, H.J. Combrink, A.J. Botha, C.T. Downs
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Thermal Biology</span>
+         · 
+        <span class="citation-date">01 May 2017</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.jtherbio.2017.03.003</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Thermal Biology
-        ·  
-      01 May 2017
-        ·  
-      doi:10.1016/j.jtherbio.2017.03.003
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f92mpz" class="citation-image" aria-label="Re‐establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red‐billed oxpeckers">
-      <img src="https://onlinelibrary.wiley.com/cms/asset/c299d40b-6c04-4b8c-b361-d4637949e103/ece32787-fig-0001-m.jpg" alt="Re‐establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red‐billed oxpeckers" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f92mpz" class="citation-image" aria-label="Re establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red billed oxpeckers">
+        <img src="https://onlinelibrary.wiley.com/cms/asset/c299d40b-6c04-4b8c-b361-d4637949e103/ece32787-fig-0001-m.jpg" alt="Re establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red billed oxpeckers" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f92mpz" class="citation-title">
-      Re‐establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red‐billed oxpeckers
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Riddhika Kalle, Leigh Combrink, Tharmalingam Ramesh, Colleen T. Downs
+      <a href="https://doi.org/f92mpz" class="citation-title">
+        Re‐establishing the pecking order: Niche models reliably predict suitable habitats for the reintroduction of red‐billed oxpeckers
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Riddhika Kalle, Leigh Combrink, Tharmalingam Ramesh, Colleen T. Downs
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ecology and Evolution</span>
+         · 
+        <span class="citation-date">23 Feb 2017</span>
+         · 
+        <span class="citation-id">doi:10.1002/ece3.2787</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Ecology and Evolution
-        ·  
-      23 Feb 2017
-        ·  
-      doi:10.1002/ece3.2787
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2015">2015</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f7tm3j" class="citation-image" aria-label="Current conservation status of the Blue Swallow&lt;i&gt;Hirundo atrocaerulea&lt;/i&gt;Sundevall 1850 in Africa">
-      <img src="" alt="Current conservation status of the Blue Swallow&lt;i&gt;Hirundo atrocaerulea&lt;/i&gt;Sundevall 1850 in Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f7tm3j" class="citation-image" aria-label="Current conservation status of the Blue Swallow i Hirundo atrocaerulea i Sundevall 1850 in Africa">
+        <img src="" alt="Current conservation status of the Blue Swallow i Hirundo atrocaerulea i Sundevall 1850 in Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f7tm3j" class="citation-title">
-      Current conservation status of the Blue Swallow<i>Hirundo atrocaerulea</i>Sundevall 1850 in Africa
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Steven W Evans, Ara Monadjem, Lizanne Roxburgh, Andrew E McKechnie, Ellizabeth M Baker, Robert B Kizungu, Ian T Little, Fadzai Matsvimbo, Ronald K Mulwa, Daniel Mwizabi, Dianah Nalwanga, Kariuki Ndang'ang'a, Leigh Combrink " tabindex="0">
-      Steven W Evans, Ara Monadjem, Lizanne Roxburgh, Andrew E McKechnie, Ellizabeth M Baker, ..., Ronald K Mulwa, Daniel Mwizabi, Dianah Nalwanga, Kariuki Ndang'ang'a, Leigh Combrink
+      <a href="https://doi.org/f7tm3j" class="citation-title">
+        Current conservation status of the Blue Swallow<i>Hirundo atrocaerulea</i>Sundevall 1850 in Africa
+      </a>
+
+      <div class="citation-authors" data-tooltip="Steven W Evans, Ara Monadjem, Lizanne Roxburgh, Andrew E McKechnie, Ellizabeth M Baker, Robert B Kizungu, Ian T Little, Fadzai Matsvimbo, Ronald K Mulwa, Daniel Mwizabi, Dianah Nalwanga, Kariuki Ndang'ang'a, Leigh Combrink" tabindex="0">
+        Steven W Evans, Ara Monadjem, Lizanne Roxburgh, Andrew E McKechnie, Ellizabeth M Baker, …, Ronald K Mulwa, Daniel Mwizabi, Dianah Nalwanga, Kariuki Ndang’ang’a, Leigh Combrink
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ostrich</span>
+         · 
+        <span class="citation-date">30 Jul 2015</span>
+         · 
+        <span class="citation-id">doi:10.2989/00306525.2015.1047808</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Ostrich
-        ·  
-      30 Jul 2015
-        ·  
-      doi:10.2989/00306525.2015.1047808
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsnjwz" class="citation-image" aria-label="Feeding preferences of Oxpeckers in Kruger National Park, South Africa">
-      <img src="" alt="Feeding preferences of Oxpeckers in Kruger National Park, South Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsnjwz" class="citation-image" aria-label="Feeding preferences of Oxpeckers in Kruger National Park, South Africa">
+        <img src="" alt="Feeding preferences of Oxpeckers in Kruger National Park, South Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsnjwz" class="citation-title">
-      Feeding preferences of Oxpeckers in Kruger National Park, South Africa
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Mduduzi Ndlovu, Leigh Combrink
+      <a href="https://doi.org/gsnjwz" class="citation-title">
+        Feeding preferences of Oxpeckers in Kruger National Park, South Africa
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mduduzi Ndlovu, Leigh Combrink
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Koedoe</span>
+         · 
+        <span class="citation-date">25 Mar 2015</span>
+         · 
+        <span class="citation-id">doi:10.4102/koedoe.v57i1.1316</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Koedoe
-        ·  
-      25 Mar 2015
-        ·  
-      doi:10.4102/koedoe.v57i1.1316
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2013">2013</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gdcfw2" class="citation-image" aria-label="Population estimates of three vulture species in Kruger National Park, South Africa">
-      <img src="" alt="Population estimates of three vulture species in Kruger National Park, South Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gdcfw2" class="citation-image" aria-label="Population estimates of three vulture species in Kruger National Park, South Africa">
+        <img src="" alt="Population estimates of three vulture species in Kruger National Park, South Africa" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gdcfw2" class="citation-title">
-      Population estimates of three vulture species in Kruger National Park, South Africa
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Campbell Murn, Leigh Combrink, G Scott Ronaldson, Charles Thompson, André Botha
+      <a href="https://doi.org/gdcfw2" class="citation-title">
+        Population estimates of three vulture species in Kruger National Park, South Africa
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Campbell Murn, Leigh Combrink, G Scott Ronaldson, Charles Thompson, André Botha
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Ostrich</span>
+         · 
+        <span class="citation-date">25 Jan 2013</span>
+         · 
+        <span class="citation-id">doi:10.2989/00306525.2012.757253</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Ostrich
-        ·  
-      25 Jan 2013
-        ·  
-      doi:10.2989/00306525.2012.757253
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>
