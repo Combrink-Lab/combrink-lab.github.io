@@ -1,18 +1,11 @@
 ---
 ---
 
-<<<<<<< HEAD
 # Welcome to the Combrink Lab at the School of Natural Resources and the Environment, The University of Arizona
 
 This site is under construction, check back soon.
 
 
-
-=======
-# Lab Website Template
-
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
 
 {%
   include button.html
@@ -100,4 +93,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   title="Our Team"
   text=text
 %}
->>>>>>> template/main
