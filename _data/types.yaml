@@ -110,6 +110,12 @@ github:
   tooltip: GitHub
   link: https://github.com/$VALUE
 
+  codeberg:
+  icon: fa-brands fa-code-branch
+  text: CodeBerg
+  tooltip: CodeBerg
+  link: https://codeberg.org/$VALUE
+
 twitter:
   icon: fa-brands fa-twitter
   text: Twitter
