@@ -14,13 +14,33 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+msc:
+  icon: fa-solid fa-graduation-cap
+  description: MSc Student
+
 undergrad:
-  icon: fa-solid fa-user-graduate
+  icon: fa-solid fa-school
   description: Undergraduate Student
 
-programmer:
+alumni:
+  icon: fa-solid fa-share_node
+  description: Alumni
+
+intern:
+  icon: fa-solid fa-school
+  description: Intern
+
+volunteer:
+  icon: fa-solid fa-handshake-angle
+  description: Volunteer
+
+staff:
+  icon: fa-solid fa-user
+  description: Staff
+
+technician:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Technician
 
 mascot:
   icon: fa-solid fa-dog

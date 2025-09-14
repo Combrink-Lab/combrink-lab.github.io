@@ -1,7 +1,7 @@
 ---
 name: Gracie Fischer
 image: images/Gracie_Fischer_Photo_0.jpg
-role: PhD Student
+role: phd
 aliases:
   - G. Fischer
   - G Fischer
