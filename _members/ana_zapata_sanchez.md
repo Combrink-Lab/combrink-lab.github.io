@@ -1,6 +1,6 @@
 ---
 name: Ana Zapata-Sanchez
-image: images/Picture-Ana-Maria-Sanchez-Ana-Maria-Sanchez.webp
+image: images/ana_maria_sanchez.jpg
 role: phd
 aliases:
   - A. Zapata-Sanchez
