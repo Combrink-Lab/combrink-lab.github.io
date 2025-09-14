@@ -34,13 +34,13 @@
       <span class="portrait-name">
         {{ member.name }}
       </span>
-    {% else %}
+    {% endif %}
 
     {% if member.description or type %}
       <span class="portrait-description">
         {{ member.description | default: type.description }}
       </span>
-    {% else %}
+    {% endif %}
 
     {% if member.affiliation %}
       <span class="portrait-affiliation">
