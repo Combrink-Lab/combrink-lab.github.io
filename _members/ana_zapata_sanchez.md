@@ -14,7 +14,7 @@ Research
 My research focuses on bat conservation, ecology, and One Health.
 
 Awards
-Fulbright Scholarship University Fellows Award
+Fulbright Scholarship & University of Arizona Fellows Award
 
 Degrees
 M.S. in Sustainability, 2023, Pontifical Bolivarian University, Colombia
