@@ -9,7 +9,7 @@ nav:
 
 Check back soon to see what we are up to.
 
-{% include tags.html tags="publication, resource, website" %}
+#{% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
 
